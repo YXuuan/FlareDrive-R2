@@ -5,7 +5,7 @@
     </div>
     <div class="powered">Powered by <a href="https://workers.cloudflare.com/" target="_blank"
         rel="noopener noreferrer">Cloudflare Workers. © <a href="https://github.com/willow-god/FlareDrive-R2" target="_blank"
-        rel="noopener noreferrer">FlareDrive-R2</a>. All rights reserved.</a></div>
+        rel="noopener noreferrer">FlareDrive-R2</a>.</div>
   </footer>
 </template>
 
