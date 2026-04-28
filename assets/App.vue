@@ -17,11 +17,10 @@
     </button>
     <div class="app-bar">
       <a class="app-title-container" style="display: flex; align-items: center;" href="/">
-        <img src="/assets/homescreen.png" alt="FlareDrive" style="height: 24px" />
-        <h1 class="app-title" style="font-size: 20px;margin: 0 25px 0 8px; user-select: none;">FlareDrive</h1>
+        <h1 class="app-title" style="font-size: 20px;margin: 0 25px 0 8px; user-select: none;">file.oovoo.site</h1>
       </a>
 
-      <input type="search" v-model="search" aria-label="Search" placeholder="🍿 输入以全局搜索文件" />
+      <input type="search" v-model="search" aria-label="Search" placeholder="搜索" />
       <div class="menu-button">
         <button class="circle" @click="showMenu = true" style="display: flex; align-items: center;background-color: rgb(245, 245, 245);">
           <p style="
@@ -676,8 +675,8 @@ export default {
 }
 
 .file-list-container {
-  margin: 20px auto;
-  padding: 10px;
+  margin: 0 auto;
+  padding: 0;
   width: 60%;
   max-width: 95%;
   background: rgba(255, 255, 255, 0.5);
@@ -690,7 +689,7 @@ export default {
 @media (max-width: 1280px) {
   .file-list-container {
     width: 768px;
-    padding: 10px;
+    padding: 0;
   }
 }
 
